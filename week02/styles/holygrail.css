@@ -60,7 +60,7 @@ main p {
 aside {
     display: flex;
     flex-direction: row;
-    float: right;
+    justify-content: center;
 }
 
 aside img {
@@ -70,6 +70,10 @@ aside img {
     padding: 2px;
     box-shadow: 0 0 30px #808080;
     margin: 15px;
+}
+
+figcaption {
+    text-align: center;
 }
 
 footer {
