@@ -1,25 +1,35 @@
 nav {
-    background-color: steelblue;
-    padding: 10px;
+    display: flex;
+    gap: 20px;
+    padding: 10px 10px 0px 10px;
+    justify-content: right;
 }
 
 nav a {
     color: white;
-    display: block;
-    padding: 20px;
-
+    padding: 5px;
+    margin: 0;
+    font-size: 20px;
+    background-color: #999999;
+    border-radius: 10%;
+    text-decoration: none;
+    box-shadow: 0 0 30px gray;
 }
 
 h1 {
-    color: stealblue;
+    text-align: center;
+    /*padding-top: 40px;*/
+    color: steelblue;
 }
 
 img {
+    float: left;
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    margin: 15px;
 }
 
 p {
