@@ -1,3 +1,7 @@
+body {
+    display: block;
+}
+
 nav {
     display: flex;
     gap: 20px;
@@ -19,23 +23,72 @@ nav a {
 h1 {
     text-align: center;
     /*padding-top: 40px;*/
-    color: steelblue;
+    color: #5b6dcd;
 }
 
-img {
+h2 {
+    color: #666666;
+    margin: 10px
+}
+
+main img {
     float: left;
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px #808080;
-    margin: 15px;
+    margin: 10px 20px 10px 10px;
+    border-radius: 30%;
+    box-shadow: 0 0 10px #808080;
 }
 
-p {
+cite {
+    text-indent: 30px;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+
+main p {
+    padding: 10px 10px 0 10px;
+    text-indent: 20px;
+    margin: 0 10px;
+
+}
+
+aside {
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1;
+    width: 400px;
+    margin: 20px 10px 10px 10px;
     padding: 10px;
+    background-color: #f6edcb;
+    align-items: center;
+}
+
+aside img {
+    width: 100px;
+    height: 80px;
+    border-radius: 50% 50% 50% 70%;
+    margin-top: 10px;
+}
+
+aside blockquote {
+    margin-top: 10px;
+    margin-left: 0;
+    padding-left: 10px;
+    margin-right: 0;
+}
+
+aside blockquote p {
+    padding: 0 1px 0 0;
+    margin: 0 0 2px 0;
+    font-style: italic;
+    font-size: small;
+    text-indent: 20px;
 }
 
 footer {
+    flex: 1;
+    margin-top: 20px;
     text-align: center;
 }
