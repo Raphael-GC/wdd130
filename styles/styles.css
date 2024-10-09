@@ -1,5 +1,6 @@
-body {
+main {
     display: block;
+    max-width: fit-content;
 }
 
 nav {
@@ -41,14 +42,13 @@ main img {
 }
 
 cite {
-    text-indent: 30px;
     font-size: larger;
     font-weight: bolder;
     text-align: center;
 }
 
-main p {
-    padding: 10px 10px 0 10px;
+p {
+    padding: 0;
     text-indent: 20px;
     margin: 0 10px;
 
